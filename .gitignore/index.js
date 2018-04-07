@@ -1,6 +1,6 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
-client.login("NDI0MjgzNjQ0Njc3NTg2OTQ1.DY2odA.SKQwg525m_cAF18lE59hCemNnb0");
+client.login(token);
 
 client.on('guildMemberAdd', member => {
     member.guild.channels.get('407879377129308174').send("**^_^ " + member.user.username + " !!** Bienvenue dans " + member.guild.name + " ! On espère que tu vas bien t'amuser ici ! :Temmie:");
